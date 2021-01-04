@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box; /* border 박스가 padding의 여백값이 반영안되게 고정  */
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  background-color: white; /* white to gray if you want size checking */
+}
+
+.main {
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: white; /* white to yellow if you want size checking */
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  line-height: 100px;
+  padding: 35px 10px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+.logo {
+  float: left;
+  line-height: 100px;
+}
+
+.slider {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/computer1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  display: flex; /* for appying align-items: center  */
+  align-items: center;
+}
+
+.title {
+  width: 60%;
+  height: auto;
+  position: absolute;
+  left: 20%;
+}
+.title h1 {
+  color: white;
+  font-size: 60px;
+  line-height: 65px;
+}
+.title h1 span {
+  color: #01d7a7;
+}
+.title p {
+  font-size: 18px;
+  color: white;
+  line-height: 1.5;
+  margin-top: 15px;
+  padding-right: 30px;
+}
+.title .btn {
+  color: white;
+  text-decoration: none;
+  background-color: #01d7a7;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-top: 15px;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  transition: 0.5s ease;
+}
+.title .btn:hover {
+  background-color: black;
+}
+
+.flex-container {
+  margin-top: 80px;
+  float: left;
+  clear: both;
+}
+
+.flex-items {
+  width: 20%;
+  display: inline-block;
+  margin-left: 45px;
+  text-align: center;
+}
+.flex-items h5 {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0px;
+}
+.flex-items p {
+  color: #727272;
+  text-align: left;
+}
+.icon-blue {
+  font-size: 40px;
+  color: #3278fa;
+}
+
+.flex-items2 {
+  width: 33%;
+  height: auto;
+  float: left;
+  padding: 0 15px;
+}
+.flex-items2 h6 {
+  color: #3278fa;
+  font-size: 16px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+.flex-items2 h3 {
+  color: black;
+  font-size: 27px;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+.read {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+.flex-items2 p {
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+
+.zoom img {
+  max-width: 100%;
+}
+
+.title-line {
+  width: 30px;
+  border-bottom: 3px solid #3278fa;
+  text-align: center;
+}
+.margin-top {
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.para {
+  float: right;
+  width: 80%;
+}
+.margin-top-1 {
+  margin-top: 10px;
+}
